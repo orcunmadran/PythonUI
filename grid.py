@@ -1,3 +1,4 @@
+#Grid Sistemi
 from tkinter import *
 
 pencere = Tk()
