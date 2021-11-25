@@ -13,7 +13,7 @@ def fotoTutucu():
     gorselTutucu.pack()
 
 
-butonum=Button(pencere, text="Foto Göster", command=fotoTutucu)
+butonum=Button(pencere, text="Foto Göster", command=fotoTutucu())
 butonum.pack()
 
 pencere.mainloop()
