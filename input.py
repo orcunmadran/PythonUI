@@ -8,6 +8,7 @@ def fonksiyon():
 
 
 metin = Entry(pencere, width=25, borderwidth=5)
+#metin.insert(0, "Varsayılan metin!")
 metin.pack()
 
 buton = Button(pencere, text="Butona Tıkla!", command=fonksiyon)

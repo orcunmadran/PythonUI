@@ -1,6 +1,7 @@
 from tkinter import *
 
 pencere = Tk()
+pencere.title("Grid Uygulaması")
 
 baslik = Label(pencere, text="[ Başlık Satırı ]")
 etiket1 = Label(pencere, text="[ Birinci satır, birinci sütun ]")
