@@ -15,19 +15,20 @@ kapaklar = ["img/kitap_01.jpg", "img/kitap_02.jpg", "img/kitap_03.jpg", "img/kit
 kapak = 0
 
 def goster():
-    global kapak
     gorsel = ImageTk.PhotoImage(Image.open(kapaklar[kapak]))
     cerceve = Label(image=gorsel)
     cerceve.image = gorsel
     cerceve.grid(row=1, column=0, padx= 10, pady=10)
-    if kapak < len(kapaklar)-1:
-        kapak +=1
-    else:
-        kapak = 0
 
 goster()
 
 def sonraki():
+    global kapak
+    if kapak < len(kapaklar)-1:
+        kapak +=1
+    else:
+        kapak = 0
+    print(kapak)
     goster()
 
 buton = Button(text="Diğer Kitapları", command=sonraki)
