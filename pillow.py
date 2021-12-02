@@ -2,7 +2,7 @@ from tkinter import *
 from PIL import ImageTk, Image
 
 pencere = Tk()
-pencere.title("Otel Programı")
+pencere.title("Sabahattin Ali'nin Kitapları")
 pencere.iconbitmap("ico/kitap.ico")
 pencere.geometry("750x650")
 
