@@ -17,8 +17,6 @@ def goster(kapak):
     cerceve = Label(image=gorsel)
     cerceve.image = gorsel
     cerceve.grid(row=1, column=0, padx= 10, pady=10)
-    kapak +=1
-    print(kapak)
 
 goster(0)
 
