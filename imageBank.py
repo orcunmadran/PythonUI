@@ -4,7 +4,7 @@ from PIL import ImageTk, Image
 pencere = Tk()
 pencere.title("Resim Albümü")
 pencere.geometry("750x600")
-#pencere.iconbitmap("kitap.ico")
+pencere.wm_iconbitmap("ico/kitap.ico")
 
 baslik = Label(pencere, text="Sabahattin Ali'nin Kitapları")
 baslik.pack(padx=20, pady=20)
