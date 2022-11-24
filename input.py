@@ -2,6 +2,7 @@ from tkinter import *
 
 pencere = Tk()
 
+
 def fonksiyon():
     etiket = Label(pencere, text="Merhaba " + metin.get())
     etiket.pack()
