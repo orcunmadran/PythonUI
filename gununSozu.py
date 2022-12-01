@@ -10,7 +10,9 @@ def metinGoster():
     gununSecilenSozu = choice(gununSozleri)
     gununSozu = Label(goster, text=gununSecilenSozu)
     gununSozu.pack()
-    gununSozu.after(2000, gununSozu.destroy)
+
+    # 2 Saniye sonra otomatik olarak sözün yok olması
+    #gununSozu.after(2000, gununSozu.destroy)
 
 gununSozuBaslik = Label(goster, text="Günün Sözünü görmek için tıklayınız")
 gosterButon = Button(goster, text="Tıkla!!!", command=metinGoster)

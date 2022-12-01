@@ -1,4 +1,4 @@
-#Tkinter genel yapılandırması.
+#Tkinter ttk genel yapılandırması.
 from tkinter import *
 from tkinter import ttk
 
