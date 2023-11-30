@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<books>
+    <book>
+        <dcTitle>Bir</dcTitle>
+        <dcImage>img/bir.jpg</dcImage>
+    </book>
+    <book>
+        <dcTitle>İki</dcTitle>
+        <dcImage>img/iki.jpg</dcImage>
+    </book>
+</books>
